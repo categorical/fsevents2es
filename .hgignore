@@ -1,0 +1,10 @@
+
+syntax: glob
+vendor
+README.html
+*.swp
+
+syntax: regexp
+
+
+
