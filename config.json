@@ -1,0 +1,26 @@
+
+{
+    "elastic": {
+        "cnx": {
+            "hosts": [
+                {
+                    "host": "127.0.0.1",
+                    "port": 63200
+                }
+            ],
+            "http_auth": [
+                "test01",
+                "test01"
+            ],
+            "timeout": 60
+        },
+        "indexname": "scarletwitch-{utcdate}"
+    },
+    "fsevents": {
+        "excludepaths": [
+            "/private/var/elasticsearch/data",
+            "^/Users/dawei/sdev/scarletwitch/foo\\d7"
+        ]
+    }
+}
+
